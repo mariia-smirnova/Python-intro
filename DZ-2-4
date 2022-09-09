@@ -1,0 +1,27 @@
+print('put on a number of numbers to be in a set')
+a=int(input())
+b=0
+num = []
+#узнали число n и создали пустой список 
+
+print('please, put on numbers throught "enter"')
+while b<a:
+    num.append(input())
+    b=b+1
+print(num)
+#заполнили список заданным (переменной n) кол-вом значений
+
+z=int(0)
+y=1
+while z<1:
+    print('put the position of the factor')
+    c=int(input())
+    print('the factor is')
+    d=(num[c])
+    q=int(d)
+    print(q)
+    v=y*q
+    print('the composition is',v)
+    y=v
+    print('enought? if "yes" write 1, if "no" write 0')
+    z=int(input())
