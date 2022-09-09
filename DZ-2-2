@@ -1,0 +1,9 @@
+import math
+a=int(input())
+b=1
+
+print('result:')
+while a>=b:
+    c=math.factorial(b)
+    print(c)
+    b=b+1
